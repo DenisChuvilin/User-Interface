@@ -9,6 +9,8 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
+
+
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -18,7 +20,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: ;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +51,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	/*border: 1px solid grey or black; */
 }
 
 html, body {
@@ -64,3 +67,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.nav-menu {
+	color:grey;
+	display: inline-block;
+	width: 100%;
+}
+
+.nav-menu a {
+	display: inline-block;
+	margin: 10px;
+	color: grey;
+	vertical-align: middle;
+	padding: 45px;
+}
+
+.nav-menu .logo{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px 0 20px;
+}
+
+/* working on main heading */
+.half {
+	width:47%;
+	display:inline-block;
+	text-align:center;
+	vertical-align: middle;
+	font-size: 3rem;
+}
+
+h1{
+	font-size: 85px;
+}
+
+button {
+	padding:1% 10% 1% 10%;
+}
+.top-half {
+display: inline-block;
+width: 48%;
+padding: 15px;
+}
+
+.top-half:nth-child(2) {
+	margin-left: 30px;
+}
+
+.whole {
+	margin: 3%;
+	
+}
+#code-image {
+	padding-left: 20%;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-third {
+display:inline-block;
+width: 32%;
+padding: 15px;
+}
+
+section h4 {
+	padding: 3% 0% 0% 1%;
+}
+section p {
+	padding: 1%;
+}
+footer {
+	text-align: center;
+	padding: 100px;
+}
+/* Finished the website/*
